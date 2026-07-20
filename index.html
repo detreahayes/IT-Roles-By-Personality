@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Career Insights | Simple Sync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-wrapper">
+        <div class="logo">Simple Sync.</div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#features">Features</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Bridging the gap between technical complexity and professional clarity. We help IT professionals identify their career archetypes through data-driven insights.</p>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <h2>IT Roles by Personality Finder</h2>
+        <div class="widget-box">
+            <label for="roleSelect">Select an IT Specialization:</label>
+            <select id="roleSelect">
+                <option value="">-- Choose a Role --</option>
+                <option value="devops">DevOps Engineer</option>
+                <option value="cyber">Cybersecurity Analyst</option>
+                <option value="data">Data Scientist</option>
+                <option value="cloud">Cloud Architect</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="network">Network Engineer</option>
+                <option value="product">Product Manager</option>
+                <option value="qa">QA Engineer</option>
+                <option value="sysadmin">Systems Administrator</option>
+                <option value="techwriter">Technical Writer</option>
+            </select>
+            
+            <div id="result" class="result" style="display: none;">
+                <h3 id="roleTitle"></h3>
+                <p><strong>Personality:</strong> <span id="rolePersonality"></span></p>
+                <p><strong>Why:</strong> <span id="roleWhy"></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <h2>Blog</h2>
+        <div class="grid">
+            <div class="card"><h4>Infrastructure as Code</h4><p>Mastering automated deployments in 2026.</p></div>
+            <div class="card"><h4>Cloud Security</h4><p>Zero-trust architectures for modern enterprise.</p></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<script src="script.js" defer></script>
+</body>
+</html>
