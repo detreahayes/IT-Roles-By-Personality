@@ -5,6 +5,7 @@ A simple web application that helps users explore IT career paths based on perso
 🌟 Project Purpose
 Many people enter tech without knowing which roles align with their natural strengths. This app aims to make that journey easier by providing personality‑based role suggestions in a clean, interactive format.
 
+
 📁 Current Structure
 Right now, the repository contains:
 
@@ -14,6 +15,7 @@ style.css -file that designed website
 README.md — Project overview
 
 (More files will be added as the app evolves)
+
 
 🚀 Features (Current)
 Current
@@ -28,18 +30,22 @@ Visual role cards with descriptions
 
 Deployment via GitHub Pages
 
+
 🛠️ Tech Stack
 HTML (current)
 
-CSS & JavaScript (planned)
+CSS & JavaScript (current)
 
 future additions:
 
-React or Vue
+Images
+
+React
 
 TailwindCSS
 
 Node.js backend (if needed)
+
 
 📌 Roadmap
 Build personality selection UI
@@ -52,13 +58,18 @@ Add styling + responsive layout
 
 Deploy to GitHub Pages
 
-Expand with additional personality frameworks (MBTI, Big Five, Enneagram)
+Expand with additional personality frameworks (Desktop Enginee, SWE, Web Dev etc.)
+
 
 🤝 Contributing
 Contributions are welcome once the project structure expands. For now, feel free to open issues with ideas or suggestions.
 
+
 📄 License
-MIT License (recommended — add LICENSE file if desired)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 📬 Contact
 Created by Detrea Hayes  
