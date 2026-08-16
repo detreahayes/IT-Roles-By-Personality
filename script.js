@@ -24,3 +24,32 @@ document.getElementById('roleSelect').addEventListener('change', function() {
         resultDiv.style.display = 'none';
     }
 });
+
+function displayResult(roleKey) {
+  const role = roles[roleKey];
+  
+  const resultHTML = `
+    <div class="result-card">
+      <h2>Your Match: ${role.title}</h2>
+      <p>${role.description}</p>
+      
+      <h4>How this role balances the 3 pillars:</h4>
+      <div class="pillar-bars">
+        <div class="bar-group">
+          <span>Front-End UI/UX: ${role.pillarBreakdown.uiUx}</span>
+          <div class="bar-bg"><div class="bar-fill" style="width: ${role.pillarBreakdown.uiUx}"></div></div>
+        </div>
+        <div class="bar-group">
+          <span>Data Structures: ${role.pillarBreakdown.dataStructures}</span>
+          <div class="bar-bg"><div class="bar-fill" style="width: ${role.pillarBreakdown.dataStructures}"></div></div>
+        </div>
+        <div class="bar-group">
+          <span>Application Logic: ${role.pillarBreakdown.appLogic}</span>
+          <div class="bar-bg"><div class="bar-fill" style="width: ${role.pillarBreakdown.appLogic}"></div></div>
+        </div>
+      </div>
+    </div>
+  `;
+  
+  document.getElementById('result').innerHTML = resultHTML;
+}

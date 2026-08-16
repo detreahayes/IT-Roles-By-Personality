@@ -147,3 +147,56 @@ button:active {
   transform: translateY(2px);
   box-shadow: 0 2px 0px #b3000e;
 }
+
+/* Pillars Feature Grid */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.pillar-card {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.pillar-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.pillar-subtitle {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+/* Pillar Skill Bars in Result Card */
+.pillar-bars {
+  margin-top: 15px;
+}
+
+.bar-group {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.bar-bg {
+  width: 100%;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: var(--primary, #4f46e5);
+  border-radius: 4px;
+}
